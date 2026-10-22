@@ -41,9 +41,6 @@ export default defineConfig({
       operatingSystem: 'Android 12+',
       description: '利用 CVE-2026-43499 在未打补丁的 Android 内核上取得临时 root 并加载 KernelSU。',
       softwareVersion: '1.2',
-      downloadUrl: hostname + base + APK,
-      fileSize: '2.7MB',
-      offers: { '@type': 'Offer', price: '0', priceCurrency: 'CNY' },
       license: 'https://polyformproject.org/licenses/noncommercial/1.0.0/',
     })],
   ],
@@ -53,6 +50,13 @@ export default defineConfig({
     nav: [
       { text: '下载', link: '#下载' },
       { text: '支持设备', link: '#支持设备' },
+      {
+        text: '法律',
+        items: [
+          { text: '免责声明', link: '#免责声明' },
+          { text: '用户协议', link: '#用户协议' },
+        ],
+      },
       { text: 'GitHub', link: 'https://github.com/YuKongA/ghostlock-app' },
     ],
     socialLinks: [{ icon: 'github', link: 'https://github.com/YuKongA/ghostlock-app' }],

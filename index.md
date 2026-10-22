@@ -9,6 +9,12 @@ titleTemplate: false
 
 <a class="dl-btn" href="apk/GhostLock-v1.2(608)-arm64-v8a-release.apk" download>⬇ 下载 GhostLock v1.2 (APK, 2.7 MB)</a>
 
+::: danger 下载前必读
+本软件利用内核漏洞提权，可能导致设备 panic、重启或数据丢失。**仅限对自己拥有或已获授权的设备使用，禁止商用。**
+下载或使用即表示你已阅读并同意下方的[免责声明](#免责声明)与[用户协议](#用户协议)。
+:::
+
+
 ## 它做什么
 
 | 能力 | 说明 |
@@ -68,6 +74,79 @@ sha256sum GhostLock-v1.2\(608\)-arm64-v8a-release.apk
 GhostLock 采用 **PolyForm Noncommercial 1.0.0**：代码公开，禁止商用。按 OSI 定义这**不是开源**，是 source-available。ZygiskNext、Vector、KernelSU 管理器因许可不兼容，不随 APK 分发，需自行从上游获取。
 
 上游项目：[YuKongA/ghostlock-app](https://github.com/YuKongA/ghostlock-app)
+
+## 免责声明
+
+GhostLock 是安全研究工具，利用公开披露的内核漏洞（CVE-2026-43499）演示 Android 提权路径。下载、安装或运行本工具即视为你已阅读并接受以下全部条款。
+
+### 风险自担
+
+- GhostLock 涉及内核竞态利用，运行过程中可能导致**设备发热、卡死、内核 panic、意外重启或数据丢失**。
+- 作者、贡献者及分发方**不对任何设备损坏、数据丢失、业务中断或其他损害负责**，不提供任何明示或默示的担保。
+- 你**自行承担**使用本工具的全部风险及后果。
+
+### 合法使用
+
+- 你**必须仅对自己拥有或已获得明确授权的设备**使用本工具。未经授权访问他人设备属于违法行为。
+- 本工具**仅供个人学习、安全研究和授权测试使用**，不得用于任何非法目的。
+- 你有责任确保使用本工具符合你所在司法管辖区的全部适用法律。
+- 利用成功后获得的 root 权限**仅限本次开机有效**，重启即失效，不得用于持久化控制他人设备。
+
+### 非商用
+
+- GhostLock 采用 PolyForm Noncommercial 1.0.0 许可，**禁止任何形式的商业使用**，包括但不限于销售、捆绑销售、付费服务或商业化集成。
+
+## 用户协议
+
+最后更新：2026-10-22
+
+### 1. 协议接受
+
+下载、安装或使用 GhostLock（以下简称「本软件」）即表示你同意受本协议约束。不同意则**不得下载、安装或使用**本软件。
+
+### 2. 许可授予
+
+本软件依据 **PolyForm Noncommercial 1.0.0** 许可分发。你获得的是非独占、不可转让、不可再许可的使用许可，**仅限非商业目的**。
+
+### 3. 允许的用途
+
+- 个人设备上的安全研究与学习
+- 经设备所有者授权的渗透测试
+- 学术教学与漏洞复现演示
+
+### 4. 禁止的用途
+
+- 未经授权访问或控制他人设备
+- 任何直接或间接的商业用途
+- 恶意软件、间谍软件或后门的开发与分发
+- 绕过或破坏安全防护机制用于非法目的
+- 违反你所在司法管辖区法律的行为
+
+### 5. 第三方组件
+
+本软件不随附 ZygiskNext、Vector(LSPosed) 或 KernelSU 管理器。这些组件由各自上游项目维护，其许可条款与本项目独立。用户自行获取并安装这些组件时，需遵守各自的许可协议。
+
+### 6. 免责与责任限制
+
+- 本软件按「现状」提供，不提供任何担保。
+- 在适用法律允许的最大范围内，作者及贡献者**不对任何直接、间接、附带、特殊或后果性损害承担责任**。
+- 你理解并接受，内核漏洞利用具有内在风险，可能导致设备不稳定或数据丢失。
+
+### 7. 知识产权
+
+本软件及其源代码的知识产权归原作者所有。PolyForm Noncommercial 许可授予的是使用权，不转移知识产权。
+
+### 8. 协议变更
+
+作者保留随时修改本协议的权利。修改后的协议自发布于本页面起生效。继续使用本软件即视为接受修改。
+
+### 9. 适用法律与争议
+
+本协议以中文为准。因本协议或本软件引起的争议，双方应友好协商解决；协商不成的，由作者所在地法院管辖。
+
+---
+
+如有疑问，请通过 [GitHub Issues](https://github.com/YuKongA/ghostlock-app/issues) 联系。
 
 <style>
 .dl-btn{display:inline-flex;align-items:center;gap:8px;margin:20px 0 28px;padding:0 28px;height:50px;border-radius:10px;font-weight:600;font-size:16px;background:var(--vp-button-brand-bg);color:var(--vp-button-brand-text);border:1px solid var(--vp-button-brand-border);text-decoration:none;transition:background .2s}
