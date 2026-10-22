@@ -50,13 +50,7 @@ export default defineConfig({
     nav: [
       { text: '下载', link: '#下载' },
       { text: '支持设备', link: '#支持设备' },
-      {
-        text: '法律',
-        items: [
-          { text: '免责声明', link: '#免责声明' },
-          { text: '用户协议', link: '#用户协议' },
-        ],
-      },
+      { text: '免责与协议', link: '#免责声明与用户协议' },
       { text: 'GitHub', link: 'https://github.com/YuKongA/ghostlock-app' },
     ],
     socialLinks: [{ icon: 'github', link: 'https://github.com/YuKongA/ghostlock-app' }],
